@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>jQuery Images Comparison Plugin</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="twentytwenty.css">
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="jquery.event.move.js"></script>
+		<script src="jquery.twentytwenty.js"></script>
+		<script type="text/javascript">
+		
+			$(function(){
+				$(".box[data-orientation!='vertical']").twentytwenty({default_offset_pct:0.5})
+				})
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<img src="image1.jpg">
+			<img src="image2.jpg">
+		</div>
+		
+	<body>
+</html>
+
